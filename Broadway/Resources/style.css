@@ -3,7 +3,7 @@ html{
   text-align: center;
 }
 
-.header, h1 ul{
+.header, h1, ul{
   list-style: none;
   background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
   color: white;
@@ -12,44 +12,20 @@ html{
 
  h2{
   font-size: 32px;
+}
+.brushes{
+  background-color: mediumspringgreen;
+}
+.frames{
+  background-color: lightcoral;
+}
+.paint{
+  background-color: skyblue;
+}
+
+
+
+.price{
+  color: blue;
   font-weight: bold;
-}
-
-h3{
-  font-size: 23px;
-  font-weight: bold;
-}
-
-p{
-  font-size: 14px;
-}
-
-ul, li a{
-    list-style: none;
-    color: white;
-    font-size: 18px;
-  }
-  .work{
-    background-image: url(https://s3.amazonaws.com/codecademy-content/programs/freelance-one/broadway/images/the-flatiron-building.png);
-  color: white;
-  font-size: 23px
-  }
-
-.footer a{
-  align-content: flex-end;
-  float: left;
-font-weight: normal;
-  color: white;
-
-}
-.footer{
-
-    background-color: dimgray;
-  }
-
-#copyright{
-  float: left;
-  font-size: 11px;
-  font-weight: bold;
-  background-color: dimgray;
 }
